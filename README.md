@@ -2,4 +2,4 @@
 
 ## Objeto:
 
-- Fazer deploy dess aplicação
+- Fazer deploy dessa aplicação
