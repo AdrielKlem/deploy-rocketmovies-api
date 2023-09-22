@@ -35,6 +35,6 @@ app.use(( error, request, response, next ) => {
     });
 });
 
-const PORT = 3333; // Door to localize 
+const PORT = process.env.PORT || 3333; // Door to localize 
 
 app.listen(PORT/* Waiter */, () => console.log(`Server is running on Port ${PORT}`));
